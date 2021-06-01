@@ -1,0 +1,33 @@
+{
+  "name": "personalportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jquery": "^3.2.1",
+    "nodemailer": "^6.6.1",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-dom": "^16.2.0",
+    "react-ga": "^2.3.5",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start": "node index.js",
+    "heroku-postbuild": "npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "proxy": "http://localhost:3000",
+  "browserslist": [
+    ">0.2%",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
